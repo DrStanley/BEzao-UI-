@@ -1,7 +1,13 @@
 body {
     color: #555555;
-    background-color: rgba(254, 254, 255, 0.411);
+    background-color: rgba(248, 244, 248, 0.24);
     font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (max-width: 1080px) {
+    #footer {
+        display: none;
+    }
 }
 
 .foot {
