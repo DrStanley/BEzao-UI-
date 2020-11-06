@@ -1,6 +1,11 @@
 body {
     color: #555555;
+    background-color: rgba(254, 254, 255, 0.411);
     font-family: 'Noto Sans', sans-serif;
+}
+
+.foot {
+    background-color: white;
 }
 
 .buttonVertical {
@@ -157,6 +162,16 @@ img {
     padding: 2px 16px;
 }
 
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: black;
+    position: fixed;
+}
+
+@media screen and (min-width: 480px) {}
+
 
 /**********************************************************************/
 
@@ -176,7 +191,6 @@ img {
 	**/
     background: #fff;
     border: 0 none;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
